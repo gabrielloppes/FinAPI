@@ -1,84 +1,45 @@
-<!-- Project title -->
 # **FinAPI**
+![GitHub top language](https://img.shields.io/github/languages/top/gabrielloppes/FinAPI?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/gabrielloppes/FinAPI?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/gabrielloppes/FinAPI?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/gabrielloppes/FinAPI?style=for-the-badge)
+![MIT License](https://img.shields.io/github/license/gabrielloppes/FinAPI?style=for-the-badge)
+## Sobre
+Lorem ipsum tortor laoreet urna ad praesent dapibus justo a, tincidunt curae gravida odio orci aenean vel a pharetra, aliquet praesent torquent quisque consectetur semper dolor mi. quisque hendrerit integer orci aliquam donec ligula a cubilia elementum, tempor eu nunc magna sem viverra eget phasellus, consectetur quam integer mattis massa libero curabitur eget.
 
-> **Status: 🚧In Progress🚧**
+## Índice
+* [Funcionalidades](#funcionalidades)
+  * [Requisitos](#requisitos)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
+* [Requisitos](#requisitos)
+* [Como usar](#como-usar)
+* [Autor](#autor)
+## Funcionalidades
+  - [x] Deve ser possível criar uma conta
+  - [ ]  Deve ser possível  buscar o extrato bancário do cliente
+  - [ ]  Deve ser possível realizar um depósito
+  - [ ]  Deve ser possível realizar um saque
+  - [ ]  Deve ser possível buscar o extrato do cliente por data
+  - [ ]  Deve ser possível atualizar os dados da conta do cliente
+  - [ ]  Deve ser possível obter dados da conta do cliente
+  - [ ]  Deve ser possível deletar uma conta
 
-## **About**
-This project was inspired in my team's final project for [Le Wagon Coding Bootcamp](https://www.lewagon.com) called [Unaconsulta](https://github.com/mamuh/unaconsulta) a service where tenants can leave reviews on properties or rooms they've lived in. The main idea for Housee is to implement the same idea but bringing TDD, better functionalities and a brand-new UX and UI
+## Tecnologias Utilizadas
+<table>
+  <tr>
+    <td>NodeJS<td>
+    <td>Yarn</td>
+    <td>Yarn</td>
+  </tr>
+  <tr>
+    <td>0.0.1</td>
+    <td>0.0.1</td>
+    <td>0.0.1</td>
+  </tr>
+</table>
 
-<!-- Table of content -->
-## **Table of content**
-<!-- ts -->
-* [Features](#features)
-* [Technologies used](#technologies-used)
-* [Requirements](#requirements)
-* [How to use it](#how-to-use-it)
-* [Test Suite](#test-suite)
-* [Author](#author)
-<!-- te -->
+## Requisitos
 
-## **Features**
+## Como usar
 
-<details>
-  <summary>
-    As a user i can</strong></a>    
-  </summary>
-  * [ ] Do something here
-  * [ ] Do something here
-  * [ ] Do something here
-  * [ ] Do something here
-</details>
-
-## **Technologies used**
-The following technologies were used in this project
-* [Tech 1]("link-here")
-* [Tech 2]("asdas")
-## **Requirements**
-
-## **How to use it**
-
-You can clone this repo with the following commands
-
-**Via HTTPS:**
-
-```bash
-git clone https://github.com/gabrielloppes/FinAPI.git
-```
-
-**Via SSH:**
-
-```bash
-git clone git@github.com:gabrielloppes/FinAPI.git
-```
-
-**Via Gitub CLI:**
-
-```bash
-gh repo clone gabrielloppes/FinAPI
-```
-
-
-## **Test Suite**
-
-<details>
-  <summary>
-    <strong>
-      Tests
-    </strong>
-  </summary>
-
-  ✔️ Should create new product
-
-  ✔️ Should get product
-
-  ✔️ Should delete product
-
-  ✔️ Should do some other thing
-
-  ✔️ Should do some other thing
-
-  ✔️ Should do some other thing
-  
-  ✔️ Should do some other thing
-
-</details>
+## Autor
