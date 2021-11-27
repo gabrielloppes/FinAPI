@@ -101,11 +101,23 @@ app.get("/statement/date", verifyIfAccountExists, (request, response) => {
   const { customer } = request;
   const { date } = request.query;
 
-  const formattedDate = new Date(date + "00:00");
+  const formatDate = new Date(date + " 00:00");
 
-  const statement = customer.statement.filter((statement) => statement.createdAt.toDateString() === new Date(formattedDate).toDateString())
+  const statement = customer.statement.filter((statement) => statement.createdAt.toDateString() === new Date(formatDate).toDateString())
 
   return response.json(statement)
 });
+
+app.put("/account", verifyIfAccountExists, (request, response) => {
+  const { name } = request.body;
+  const { customer } = request;
+
+  return response.status(201).send()
+});
+
+app.get("/account", verifyIfAccountExists, (request, response) => {
+  const { customer } = request;
+  return response.json(customer);
+})
 
 app.listen(3333);
